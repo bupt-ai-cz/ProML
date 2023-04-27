@@ -12,8 +12,6 @@ As the same as the [MCL](https://github.com/chester256/MCL).
 
 ## 3. Training
 
-Specify the dataset paths and domains in `train.sh`, and
-
 ```shell
 python -u train.py --dataset visda --base_path ./data/txt/visda/ --data_root /root/SSDA/data/visda/ --source clipart --target sketch --num 1 --log_dir ./logs --num_classes 12 --threshold2 0.4 --T 0.05
 ```
