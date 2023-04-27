@@ -25,7 +25,7 @@ The code is partly based on [MME](https://github.com/VisionLearningGroup/SSDA_MM
 ```shell
 @article{huang2023semi,
   title={Semi-supervised Domain Adaptation via Prototype-based Multi-level Learning},
-  author={Huang, Xinyang and Zhu Chuang and Chen Wenkai},
+  author={Huang, Xinyang and Zhu, Chuang and Chen, Wenkai},
   journal={IJCAI},
   year={2023}
 }
