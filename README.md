@@ -22,7 +22,7 @@ python -u train.py --dataset visda --base_path ./data/txt/visda/ --data_root /ro
 The code is partly based on [MME](https://github.com/VisionLearningGroup/SSDA_MME) and [MCL](https://github.com/chester256/MCL).
 
 
-## 5.Citation
+## 5. Citation
 ```shell
 @article{huang2023semi,
   title={Semi-supervised Domain Adaptation via Prototype-based Multi-level Learning},
@@ -32,7 +32,7 @@ The code is partly based on [MME](https://github.com/VisionLearningGroup/SSDA_MM
 }
 ```
 
-## 6.Contact
+## 6. Contact
 
 Xinyang Huang ([hsinyanghuang7@gmail.com](hsinyanghuang7@gmail.com))
 
