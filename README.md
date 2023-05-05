@@ -1,5 +1,5 @@
 # Semi-supervised Domain Adaptation via Prototype-based Multi-level Learning
-[[Project]](https://bupt-ai-cz.github.io/ProML/)
+[[Project]](https://bupt-ai-cz.github.io/ProML/) [[Paper]](https://arxiv.org/abs/2305.02693)
 
 # Overview
 ![](flamework.png)
