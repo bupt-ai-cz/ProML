@@ -24,11 +24,13 @@ The code is partly based on [MME](https://github.com/VisionLearningGroup/SSDA_MM
 
 ## 5. Citation
 ```shell
-@article{huang2023semi,
-  title={Semi-supervised Domain Adaptation via Prototype-based Multi-level Learning},
-  author={Huang, Xinyang and Zhu, Chuang and Chen, Wenkai},
-  journal={IJCAI},
-  year={2023}
+@misc{huang2023semisupervised,
+      title={Semi-supervised Domain Adaptation via Prototype-based Multi-level Learning}, 
+      author={Xinyang Huang and Chuang Zhu and Wenkai Chen},
+      year={2023},
+      eprint={2305.02693},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
 }
 ```
 
