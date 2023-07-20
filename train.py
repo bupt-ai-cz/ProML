@@ -127,7 +127,7 @@ def train(source_loader, target_loader, target_loader_unl, target_loader_val, ta
         feat_s, feat_t = feat_t_con.chunk(2)
         L_base = criterion(out1, target)
         
-        L_intra, L_inter, L_fixmatch, L_batch, unl_mask, unl_pseudo_label, feat_tu_w = loss_unl(net_G, net_F, feat_t_con, feat_s, gt_s, imgs_tu_w, imgs_tu_s, proto_s, proto_t, batch_idx, args)
+        L_intra, L_inter, L_fixmatch, L_batch, unl_mask, unl_pseudo_label, feat_tu_w = loss_unl(net_G, net_F, feat_t_con, feat_s, gt_s, imgs_tu_w, imgs_tu_s, proto_t, batch_idx, args)
 
         if batch_idx <= args.warm_steps:
             Loss = L_base + L_batch + L_fixmatch
