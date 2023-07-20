@@ -38,6 +38,4 @@ The code is partly based on [MME](https://github.com/VisionLearningGroup/SSDA_MM
 
 Xinyang Huang ([hsinyanghuang7@gmail.com](hsinyanghuang7@gmail.com))
 
-Chuang Zhu ([czhu@bupt.edu.cn](czhu@bupt.edu.cn))
-
 If you have any questions, you can contact us directly.
