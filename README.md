@@ -4,7 +4,7 @@
 [[Project]](https://bupt-ai-cz.github.io/ProML/) [[Paper]](https://arxiv.org/abs/2305.02693)
 
 # Overview
-![](flamework.png)
+![](framework.png)
 ## 1. Requirements
 ```shell
 pip install -r requirements.txt
