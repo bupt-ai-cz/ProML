@@ -9,7 +9,9 @@ pip install -r requirements.txt
 ```
 
 ## 2. Data Preparation
-As the same as the [MCL](https://github.com/chester256/MCL).
+For DomainNet, please follow [MME](https://github.com/VisionLearningGroup/SSDA_MME) to prepare the data. The expected dataset path pattern is like `your-domainnet-data-root/domain-name/class-name/images.png`.
+
+For Office-Home, please download the [resized images](https://drive.google.com/file/d/1OkkrggGq35QSZNPuYhmrdmMZXtkqnBqO/view?usp=sharing) and extract, you will get a .pkl and a .npy file, then specify their paths in `loader/office_home.py`.
 
 ## 3. Training
 
@@ -19,7 +21,7 @@ python -u train.py --dataset visda --base_path ./data/txt/visda/ --data_root /ro
 
 ## 4. Acknowledgement
 
-The code is partly based on [MME](https://github.com/VisionLearningGroup/SSDA_MME) and [MCL](https://github.com/chester256/MCL).
+The code is partly based on [MME](https://github.com/VisionLearningGroup/SSDA_MME) and [MCL](https://github.com/chester256/MCL). Thank them for their great work.
 
 
 ## 5. Citation
