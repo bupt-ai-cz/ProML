@@ -125,13 +125,11 @@ class Prototype_t:
             momentum = 0
         else:
             momentum = self.m
-
         if i_iter <= (20 + args.warm_steps)/2:
             for i_cls in torch.unique(lblt):
                 featt_i = featt[lblt == i_cls, :]
                 featt_i_center = featt_i.mean(dim=0, keepdim=True)
                 self.mo_pro[i_cls, :] = self.mo_pro[i_cls, :] * momentum + featt_i_center * (1 - momentum)
-
         #unlabel update 
         if i_iter > (20 + args.warm_steps)/2:
             unl_pseudo_label1 = torch.cat([lblt, unl_pseudo_label], dim=0)
@@ -142,6 +140,5 @@ class Prototype_t:
                 if featt_i.shape[0]:
                     featt_i_center = featt_i.mean(dim=0, keepdim=True)
                     self.mo_pro[i_cls, :] = self.mo_pro[i_cls, :] * momentum + featt_i_center * (1 - momentum)
-            
         if norm:
             self.mo_pro = F.normalize(self.mo_pro)
