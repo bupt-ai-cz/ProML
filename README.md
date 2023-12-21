@@ -1,7 +1,7 @@
 
 
 # Semi-supervised Domain Adaptation via Prototype-based Multi-level Learning
-[[Project]](https://bupt-ai-cz.github.io/ProML/) [[Paper]](https://arxiv.org/abs/2305.02693)
+[[Project]](https://bupt-ai-cz.github.io/ProML/) [[Paper]](https://arxiv.org/abs/2305.02693) [[Supplementary Version]](https://github.com/bupt-ai-cz/ProML/blob/main/IJCAI2023Extend.pdf)
 
 # Overview
 ![](framework.png)
