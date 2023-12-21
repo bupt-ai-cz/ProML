@@ -1,14 +1,12 @@
-
-
 # Semi-supervised Domain Adaptation via Prototype-based Multi-level Learning
-[[Project]](https://bupt-ai-cz.github.io/ProML/) [[Paper]](https://arxiv.org/abs/2305.02693) [[Supplementary Version]](https://github.com/bupt-ai-cz/ProML/blob/main/IJCAI2023Extend.pdf)
+[[Project]](https://bupt-ai-cz.github.io/ProML/) [[Paper]](https://arxiv.org/abs/2305.02693) [[Supplementary Version]](https://github.com/bupt-ai-cz/ProML/blob/main/assets/IJCAI2023Extend.pdf)
 
 # Overview
-![](framework.png)
+![](/assets/framework.png)
 
 # Motivation
-To avoid misunderstandings, let us elaborate further on our motivation.
-![](motivation.png)
+To avoid misunderstandings, let us elaborate further on our motivation and give a [[Supplementary Version]](https://github.com/bupt-ai-cz/ProML/blob/main/assets/IJCAI2023Extend.pdf).
+![](/assets/motivation.png)
 
 
 ## 1. Requirements
@@ -47,5 +45,4 @@ The code is partly based on [MME](https://github.com/VisionLearningGroup/SSDA_MM
 ## 6. Contact
 
 Xinyang Huang ([hsinyanghuang7@gmail.com](hsinyanghuang7@gmail.com))
-
 If you have any questions, you can contact us directly.
