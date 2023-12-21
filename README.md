@@ -6,8 +6,8 @@
 # Overview
 ![](framework.png)
 
-# Overview
-To avoid misunderstandings, let us elaborate further on our motivations.
+# Motivation
+To avoid misunderstandings, let us elaborate further on our motivation.
 ![](motivation.png)
 
 
