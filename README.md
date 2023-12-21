@@ -5,6 +5,12 @@
 
 # Overview
 ![](framework.png)
+
+# Overview
+To avoid misunderstandings, let us elaborate further on our motivations.
+![](motivation.png)
+
+
 ## 1. Requirements
 ```shell
 pip install -r requirements.txt
